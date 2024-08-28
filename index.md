@@ -1,22 +1,22 @@
 ---
 ---
 
-# slash1028DESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# VoxCeleb is an audio-visual dataset consisting of short clips of human speech, extracted from interview videos uploaded to YouTube
 
 
 
 {% include section.html %}
 
-## Highlights
+## Dataset
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+There are two versions of this dataset, VoxCeleb1 and VoxCeleb2. VoxCeleb1 consists of more than 150,000 utterances from 1251 celebrities, and VoxCeleb2 consists of more than 1,000,000 utterances from 6112 celebrities.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Download samples from here."
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="In this page, a limited sample of the database is provided."
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="尝试一下1"
   flip=true
   style="bare"
   text=text
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+qwfqwfwqfqa.
 
 {%
   include button.html
@@ -76,6 +76,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="尝试一下2"
   text=text
 %}
