@@ -11,8 +11,6 @@
 
 The SuperVox contains 1250 speakers, with 1210 speakers in the dev set, and 40 speakers in the test set.
 
-{% image="images/dataset.jpg" %}
-
 {%
   include button.html
   link="research"
