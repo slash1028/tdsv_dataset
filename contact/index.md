@@ -51,7 +51,7 @@ Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual chec
 
 {% endcapture %}
 
-{% include cols.html col1=col1 %}
+{% include cols.html col1=col1 col2=col2%}
 
 {% include section.html dark=true %}
 
