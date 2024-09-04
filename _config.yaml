@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: tdsv dataset template.
-subtitle: leon
+title: “The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus”
+subtitle:  The Sub3Vox Dataset
 description: A website for displaying tdsv datasets
-header: images/background.jpg
-footer: images/background.jpg
+header: images/EEE background.jpg
+footer: images/EEE background.jpg
 proofer: false
 
 # site social media and other links
