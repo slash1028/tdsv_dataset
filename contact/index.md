@@ -18,7 +18,7 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
 {%
   include button.html
   type="phone"
-  text="(852)5665-8669"
+  text="(852) 5665-8669"
   link="+852-5665-8669"
 %}
 {%
@@ -34,8 +34,8 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
 
 {%
   include figure.html
-  image="images/logo.svg"
-  caption="Lorem ipsum"
+  image="images/PolyU Logo.png"
+  caption="The Hong Kong Polytechnic University"
 %}
 
 {% endcapture %}
@@ -44,8 +44,8 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
 
 {%
   include figure.html
-  image="images/AboutPolyU_Campus8.png"
-  caption="Lorem ipsum"
+  image="images/EEE.png"
+  caption="Department of Electrical and Electronic Engineering"
 %}
 
 {% endcapture %}
