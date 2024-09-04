@@ -27,7 +27,7 @@ The SuperVox contains 1250 speakers, with 1210 speakers in the dev set, and 40 s
   image="images/AboutPolyU_Campus1.png"
   link="research"
   title="DATASET DOWNLOAD"
-  text="SuperVox"
+  text="SuperVox asdausdhaiusdhasiduhasudha"
 %}
 
 {% capture text %}
@@ -47,7 +47,7 @@ A limited sample of the database is provided.
 
 {%
   include feature.html
-  image="images/AboutPolyU_Campus10.png"
+  image="images/AboutPolyU_Campus10.jpg"
   link="projects"
   title="Sample Subset"
   flip=true
