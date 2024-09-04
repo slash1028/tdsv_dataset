@@ -1,11 +1,4 @@
-{% include css.html %}
-<style>
-  .centered-text {
-    text-align: center;
-  }
-</style>
 
-<div class="centered-text">
 ---
 title: Contact Us
 nav:
@@ -68,5 +61,3 @@ This dataset was introduced by paper: "The Sub-3Sec Problem: From Text-Independe
 {% endcapture %}
 
 {% include cols.html %}
-
-</div>
