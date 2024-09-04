@@ -1,4 +1,4 @@
-
+---
 ---
 title: Contact Us
 nav:
@@ -6,7 +6,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}About Us
+# {% include icon.html icon="fa-regular fa-envelope" %} About Us
 
 {%
   include button.html
@@ -27,7 +27,7 @@ nav:
   link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
 %}
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Acknowledgements
+# {% include icon.html icon="fa-regular fa-envelope" %} Acknowledgements
 Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
 
 {% include section.html %}
