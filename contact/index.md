@@ -1,3 +1,11 @@
+{% include css.html %}
+<style>
+  .centered-text {
+    text-align: center;
+  }
+</style>
+
+<div class="centered-text">
 ---
 title: Contact Us
 nav:
@@ -50,13 +58,15 @@ Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual chec
 %}
 
 {% endcapture %}
-
+s
 {% include cols.html col1=col1 col2=col2%}
 
 {% include section.html dark=true %}
 
-{% capture col1 %}
-This dataset is used for paper: "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
+{% capture %}
+This dataset was introduced by paper: "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 {% endcapture %}
 
-{% include cols.html col1=col1%}
+{% include cols.html %}
+
+</div>
