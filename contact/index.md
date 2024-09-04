@@ -28,30 +28,6 @@ Acknowledgements: This work is supported by the EPSRC program grant Seebibyte EP
   link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
 %}
 
-{% include section.html %}
-
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
 {% include section.html dark=true %}
 
 {% capture col1 %}
