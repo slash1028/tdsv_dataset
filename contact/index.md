@@ -1,13 +1,11 @@
 ---
-title: About Us
+title: Contact Us
 nav:
   order: 5
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}About Us
-
-Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
 
 {%
   include button.html
@@ -27,6 +25,9 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
   tooltip="Our location on Google Maps"
   link="https://maps.app.goo.gl/buxChGFGYULrLfkb9"
 %}
+
+# {% include icon.html icon="fa-regular fa-envelope" %}Acknowledgements
+Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the help in manual check and participation in discussion.
 
 {% include section.html %}
 
@@ -50,7 +51,7 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1 %}
 
 {% include section.html dark=true %}
 
@@ -58,12 +59,4 @@ Acknowledgements: Thanks to Xuerui Huang, Chong-Xin Gan, and Lishi Zuo for the h
 This dataset is used for paper: "The Sub-3Sec Problem: From Text-Independent to Text-Dependent Corpus"
 {% endcapture %}
 
-{% capture col2 %}
-234234234
-{% endcapture %}
-
-{% capture col3 %}
-123123123
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include cols.html col1=col1%}
